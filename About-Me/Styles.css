@@ -102,7 +102,7 @@ nav a:focus{
 
 @media (min-width: 680px){
     .about-me{
-        background: url(img/TL;DR.jpg);
+        background: url(img/TL;DR.png);
         background-repeat: no-repeat;
         background-size: contain;
         width: 100%;
