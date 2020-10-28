@@ -3,6 +3,7 @@
 
 html{
     min-width: 560;
+    scroll-behavior: smooth;
 }
 
 *{
