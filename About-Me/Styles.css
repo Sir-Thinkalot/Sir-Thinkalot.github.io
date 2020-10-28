@@ -24,6 +24,12 @@ img{
     margin: 0 auto;
 }
 
+@media (max-width:680){
+    body{
+        zoom: 50%;
+    }
+}
+
 /*---------BODY---------*/
 
 body{
@@ -87,7 +93,7 @@ nav a:focus{
 /*---------ABOUT ME---------*/
 
 .about-me{
-    max-width: 2800px;
+    max-height: fit-content;
 }
 
 .about-me-textbox{
