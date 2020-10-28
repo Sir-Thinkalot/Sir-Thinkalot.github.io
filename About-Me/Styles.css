@@ -2,7 +2,7 @@
 
 
 html{
-    min-width: 410;
+    min-width: 560;
 }
 
 *{
@@ -29,7 +29,7 @@ img{
 body{
     text-align: center;
     background-color: #FFECB4;
-    min-width: 540px;
+    min-width: 560px;
 }
 
 /*---------NAV---------*/
@@ -44,7 +44,8 @@ nav {
     text-align: right;
     font-size: 90%;
     letter-spacing: 1px;
-    min-width: 540px;
+    min-width: 560px;
+    font-size: 1em;
     z-index: 1;
 }
 
@@ -179,6 +180,7 @@ nav a:focus{
 footer{
     background-color: #5A3D2B;
     padding: 3em;
+    min-width: 560px;
 }
 
 footer h1{
