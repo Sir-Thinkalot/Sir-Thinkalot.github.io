@@ -32,6 +32,8 @@ body{
     min-width: 410px;
 }
 
+/*---------NAV---------*/
+
 nav {
     position: absolute;
     left:0;
@@ -62,8 +64,10 @@ nav a:focus{
     transition: .3s;
 }
 
+/*---------HEAD---------*/
+
 .Home-Hero h1{
-    font-size: 2.5em;
+    font-size: 4em;
     letter-spacing: 4px;
     font-family: 'Noto Sans JP', sans-serif; 
 }
@@ -80,6 +84,12 @@ nav a:focus{
     transform: translate(0px, -40px) scale(1.8);
 }
 
+/*---------ABOUT ME---------*/
+
+.about-me{
+    max-width: 2800px;
+}
+
 .about-me-textbox{
     background-color: #E5771E;
     padding: 3em;
@@ -87,6 +97,7 @@ nav a:focus{
     outline: 5px solid #FFECB4;
     outline-offset: -2em;  
     padding-top: 4.5em;
+    font-size: 1.25em;
 }
 
 .about-me-textbox h2{
@@ -113,9 +124,11 @@ nav a:focus{
     
     .about-me-textbox{
         background-color: #E5771E;
-        width: 360px;
+        width: 480px;
         position: relative;
-        top:15px;
-        margin-left: 10%;  
+        top:50px;
+        margin-left: 15%;
     }
 }
+
+/*---------WHAT I DO---------*/
