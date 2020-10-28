@@ -24,12 +24,6 @@ img{
     margin: 0 auto;
 }
 
-@media (max-width:180){
-    body{
-        user-zoom: 50%;
-    }
-}
-
 /*---------BODY---------*/
 
 body{
@@ -129,6 +123,7 @@ nav a:focus{
         border-color: #FFECB4;
         margin-left: 2.5%;
         margin-top: -45px;
+        margin-bottom: 45px;
     }
     
     .about-me-textbox{
