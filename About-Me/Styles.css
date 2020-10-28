@@ -139,7 +139,7 @@ nav a:focus{
 /*---------WHAT I DO---------*/
 .things{
     background-color: #75C8AE;
-    padding: 2.5em;
+    padding: 8em;
 }
 
 .things h1{
@@ -172,5 +172,42 @@ nav a:focus{
     font-size: 1.25em;
     padding-top: 1em;
     padding-bottom: 3em;
-    
+}
+
+/*----------Contact----------*/
+
+footer{
+    background-color: #5A3D2B;
+    padding: 3em;
+}
+
+footer h1{
+    color: #F4A127;
+}
+
+footer li{
+    display: inline-block;
+    margin: 1em;
+}
+
+footer .logo{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+footer .mail{
+    color: #FFECB4;
+    font-size: 1.2em;
+    padding-top: .8em;
+}
+
+footer .logo:hover,
+footer .logo:focus{
+    transition: .2s;
+    filter: grayscale(100%);
+}
+
+footer .mail:hover{
+    text-decoration: underline;
 }
