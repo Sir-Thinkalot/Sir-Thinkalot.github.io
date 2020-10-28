@@ -24,9 +24,9 @@ img{
     margin: 0 auto;
 }
 
-@media (max-width:680){
+@media (max-width:180){
     body{
-        zoom: 50%;
+        user-zoom: 50%;
     }
 }
 
